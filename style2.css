@@ -1,0 +1,17 @@
+
+/* my logo */
+#logo {
+  position: fixed;
+  bottom: 25%;
+  left: 90%;
+  /* top: 15%; */
+  transform: translateX(-50%);
+  z-index: 999;
+  animation: logoAnimation 7s infinite;
+}
+
+#logo img {
+  width: 100px; /* Sesuaikan dengan ukuran logo Anda */
+  border-radius: 50%;
+  cursor: pointer;
+}
